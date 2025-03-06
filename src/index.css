@@ -1,0 +1,8 @@
+body {
+  max-width: 750PX;
+  margin: 0 auto!important;
+}
+
+.box {
+  font-size: 12px;
+}
