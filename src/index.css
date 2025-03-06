@@ -1,8 +1,33 @@
 body {
   max-width: 750PX;
   margin: 0 auto!important;
+  overflow-scrolling: touch;
 }
 
 .box {
   font-size: 12px;
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+input,
+textarea {
+  -webkit-user-select: auto;
+  user-select: auto;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
